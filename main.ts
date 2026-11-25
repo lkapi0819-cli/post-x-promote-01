@@ -32,3 +32,4 @@ try {
   console.error(`POST.json could not be copied from ${BOT_DIR}: ${(err as Error).message}`);
   process.exit(1);
 }
+console.log(`handed in the post: ${post.url}`);
